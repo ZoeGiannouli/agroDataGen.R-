@@ -15,7 +15,7 @@ agroDataGen <- function(num_fields, num_crops, total_area, total_production) {
   # Πλήθος γραμμών του πίνακα (αγροτεμάχιο x καλλιέργεια)
   n <- nrow(combinations)
   
-  # Τυχαίες αρχικές τιμές (ομοιόμορφα κατανεμημένες)
+  # Τυχαίες αρχικές τιμές
   raw_area <- runif(n)
   raw_production <- runif(n)
   
@@ -62,7 +62,7 @@ agroDataGen <- function(num_fields, num_crops, total_area, total_production) {
 +     # Πλήθος γραμμών του πίνακα (αγροτεμάχιο x καλλιέργεια)
 +     n <- nrow(combinations)
 +     
-+     # Τυχαίες αρχικές τιμές (ομοιόμορφα κατανεμημένες)
++     # Τυχαίες αρχικές τιμές 
 +     raw_area <- runif(n)
 +     raw_production <- runif(n)
 +     
